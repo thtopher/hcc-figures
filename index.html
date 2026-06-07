@@ -1,0 +1,280 @@
+<!doctype html><html lang=en><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Starset piece — figure deck</title><style>
+:root{
+  --ink:#1a1a1a; --paper:#fafaf7; --rule:#d8d4cc; --muted:#8a857c;
+  --accent:#214D8A;            /* the one focal color (Third Horizon blue) */
+  --ctx:#b8b3a8;               /* context gray */
+  --faint:#efece4;
+  --green:#3a7d44; --amber:#c9a227; --red:#b3261e; /* grade tiers = ordinal DATA, not decoration */
+  --green-t:#e7f0e8; --amber-t:#f6efd6; --red-t:#f6e3e1;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);margin:0;padding:48px 32px 80px;
+  font:16px/1.55 Charter,Georgia,serif;}
+.wrap{max-width:760px;margin:0 auto}
+h1{font-size:26px;font-weight:600;letter-spacing:-.01em;margin:0 0 4px}
+.sub{color:var(--muted);font-size:14px;margin:0 0 36px}
+figure{margin:0 0 52px;padding:0}
+.fignum{font:11px/1 "SF Mono",ui-monospace,monospace;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--accent);font-weight:600}
+figcaption{font-size:13.5px;color:var(--muted);margin-top:10px;line-height:1.45}
+figcaption b{color:var(--ink);font-weight:600}
+.title{font-size:18px;font-weight:600;margin:2px 0 14px}
+.badge{display:inline-block;border:1px dashed var(--red);color:var(--red);
+  font:10px/1 "SF Mono",monospace;letter-spacing:.1em;text-transform:uppercase;
+  padding:3px 7px;border-radius:3px;margin-left:8px;vertical-align:2px}
+.tick{font:10px/1 "SF Mono",monospace;fill:var(--muted)}
+.lab{font:12px/1.2 Charter,Georgia,serif;fill:var(--ink)}
+.val{font:11px/1 "SF Mono",monospace;fill:var(--ink);font-weight:600}
+.note{font:11px/1.3 Charter,Georgia,serif;fill:var(--muted)}
+.axis{stroke:var(--muted);stroke-width:.5;fill:none}
+.ref{stroke:var(--ctx);stroke-width:.6;stroke-dasharray:3 3;fill:none}
+svg{display:block;width:100%;height:auto}
+</style>
+<body><div class=wrap>
+<h1>The actual fine-grained cost of American health care</h1>
+<p class=sub>Figure deck &middot; Tufte-compliant &middot; real data where marked; <span style="color:var(--red)">illustrative</span> mocks badged. Generated 2026-06-07.</p>
+<figure><div class=fignum>Fig B</div><div class=title>How a price earns its grade<span class=badge>Illustrative</span></div>
+<svg viewBox="0 0 680 440">
+<rect x="90.0" y="70" width="176.7" height="290" fill="var(--green-t)" />
+<rect x="266.7" y="70" width="176.7" height="290" fill="var(--amber-t)" />
+<rect x="443.3" y="70" width="176.7" height="290" fill="var(--red-t)" />
+<text x="178.3" y="62" text-anchor=middle class=val fill="var(--green)">GREEN &le;20%</text>
+<text x="355.0" y="62" text-anchor=middle class=val fill="var(--amber)">YELLOW &le;40%</text>
+<text x="531.7" y="62" text-anchor=middle class=val fill="var(--red)">RED &gt;40%</text>
+<line x1="90" y1="360" x2="620" y2="360" class=axis />
+<line x1="90" y1="70" x2="90" y2="360" class=axis />
+<text x="90.0" y="376" text-anchor=middle class=tick>0%</text>
+<text x="266.7" y="376" text-anchor=middle class=tick>20%</text>
+<text x="443.3" y="376" text-anchor=middle class=tick>40%</text>
+<text x="620.0" y="376" text-anchor=middle class=tick>60%</text>
+<text x="355.0" y="394" text-anchor=middle class=note>distance from paid claims &rarr; (closer = better)</text>
+<text x="76" y="76" text-anchor=end class=tick>high</text>
+<text x="76" y="360" text-anchor=end class=tick>low</text>
+<text transform="translate(46,215.0) rotate(-90)" text-anchor=middle class=note>cross-carrier agreement</text>
+<circle cx="125.3" cy="200.5" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="143.0" cy="273.0" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="160.7" cy="151.2" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="169.5" cy="229.5" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="187.2" cy="104.8" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="196.0" cy="302.0" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="204.8" cy="180.2" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="222.5" cy="244.0" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="231.3" cy="133.8" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="249.0" cy="264.3" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="257.8" cy="191.8" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="178.3" cy="316.5" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="151.8" cy="215.0" r="4" fill="var(--green)" opacity=.85 />
+<circle cx="293.2" cy="238.2" r="4" fill="var(--amber)" opacity=.85 />
+<circle cx="310.8" cy="157.0" r="4" fill="var(--amber)" opacity=.85 />
+<circle cx="328.5" cy="278.8" r="4" fill="var(--amber)" opacity=.85 />
+<circle cx="355.0" cy="200.5" r="4" fill="var(--amber)" opacity=.85 />
+<circle cx="381.5" cy="249.8" r="4" fill="var(--amber)" opacity=.85 />
+<circle cx="408.0" cy="168.6" r="4" fill="var(--amber)" opacity=.85 />
+<circle cx="425.7" cy="296.2" r="4" fill="var(--amber)" opacity=.85 />
+<circle cx="302.0" cy="113.5" r="4" fill="var(--amber)" opacity=.85 />
+<circle cx="478.7" cy="273.0" r="4" fill="var(--red)" opacity=.85 />
+<circle cx="514.0" cy="209.2" r="4" fill="var(--red)" opacity=.85 />
+<circle cx="549.3" cy="287.5" r="4" fill="var(--red)" opacity=.85 />
+<circle cx="584.7" cy="244.0" r="4" fill="var(--red)" opacity=.85 />
+<circle cx="487.5" cy="110.6" r="5" fill="var(--red)" stroke="var(--ink)" stroke-width=.7 />
+<circle cx="522.8" cy="99.0" r="5" fill="var(--red)" stroke="var(--ink)" stroke-width=.7 />
+<circle cx="558.2" cy="119.3" r="5" fill="var(--red)" stroke="var(--ink)" stroke-width=.7 />
+<line x1="530.8" y1="104.6" x2="602.3" y2="78.7" stroke="var(--ink)" stroke-width=.5 />
+<text x="602.3" y="72.7" text-anchor=end class=note>high agreement, far from claims:</text>
+<text x="602.3" y="84.7" text-anchor=end class=note>shared fiction &rarr; graded <tspan fill="var(--red)" font-weight=600>RED</tspan>, not Green</text>
+</svg>
+<figcaption><span class=badge style="margin-left:0">Illustrative</span> <b>The signature figure.</b> Grade is set by the band (realism governs). Agreement only tightens confidence in a claims-vouched price; it can never lift Red&rarr;Green. Where claims and carriers disagree, Starset reports the <i>tension</i> rather than taking the kinder answer. Colors encode the grade tier (ordinal data, not decoration). Points are placeholder; real graded prices per the brief.</figcaption></figure>
+<figure><div class=fignum>Fig C</div><div class=title>Does the grade hold up out of sample?<span class=badge>Illustrative</span></div>
+<svg viewBox="0 0 680 300">
+<line x1="252.5" y1="40" x2="252.5" y2="230" class=ref />
+<text x="252.5" y="252" text-anchor=middle class=tick>20%</text>
+<line x1="375.0" y1="40" x2="375.0" y2="230" class=ref />
+<text x="375.0" y="252" text-anchor=middle class=tick>40%</text>
+<text x="130.0" y="252" text-anchor=middle class=tick>0%</text>
+<text x="620.0" y="252" text-anchor=middle class=tick>80%</text>
+<text x="375.0" y="270" text-anchor=middle class=note>actual error vs. paid claims, held-out year &rarr;</text>
+<text x="116" y="84" text-anchor=end class=lab>Green</text>
+<circle cx="142.2" cy="76.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="154.5" cy="80.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="160.6" cy="84.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="166.8" cy="76.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="172.9" cy="80.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="179.0" cy="84.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="185.1" cy="76.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="191.2" cy="80.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="197.4" cy="84.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="203.5" cy="76.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="209.6" cy="80.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="215.8" cy="84.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="221.9" cy="76.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="228.0" cy="80.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="234.1" cy="84.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="240.2" cy="76.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="246.4" cy="80.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="185.1" cy="84.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="197.4" cy="76.0" r="3.2" fill="var(--green)" opacity=.8 />
+<circle cx="209.6" cy="80.0" r="3.2" fill="var(--green)" opacity=.8 />
+<text x="116" y="144" text-anchor=end class=lab>Yellow</text>
+<circle cx="179.0" cy="136.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="203.5" cy="140.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="221.9" cy="144.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="240.2" cy="136.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="258.6" cy="140.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="270.9" cy="144.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="283.1" cy="136.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="295.4" cy="140.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="307.6" cy="144.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="319.9" cy="136.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="332.1" cy="140.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="344.4" cy="144.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="356.6" cy="136.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="264.8" cy="140.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="301.5" cy="144.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="313.8" cy="136.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="277.0" cy="140.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="338.2" cy="144.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="246.4" cy="136.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<circle cx="289.2" cy="140.0" r="3.2" fill="var(--amber)" opacity=.8 />
+<text x="116" y="204" text-anchor=end class=lab>Red</text>
+<circle cx="240.2" cy="196.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="283.1" cy="200.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="332.1" cy="204.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="375.0" cy="196.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="411.8" cy="200.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="448.5" cy="204.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="485.2" cy="196.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="515.9" cy="200.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="546.5" cy="204.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="571.0" cy="196.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="601.6" cy="200.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="313.8" cy="204.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="399.5" cy="196.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="466.9" cy="200.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="503.6" cy="204.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="430.1" cy="196.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="362.8" cy="200.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="534.2" cy="204.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="564.9" cy="196.0" r="3.2" fill="var(--red)" opacity=.8 />
+<circle cx="387.2" cy="200.0" r="3.2" fill="var(--red)" opacity=.8 />
+<text x="620" y="80" text-anchor=end class=note>90% within &plusmn;20% (target)</text>
+</svg>
+<figcaption><span class=badge style="margin-left:0">Illustrative</span> The plain test of a confidence system: build on year <i>T</i>, grade on <i>T+1</i>. Green should cluster tight to zero, Red should spread. This is the calibration the piece commits to publishing — the chart that turns the grade from assertion into evidence. Distribution shown is placeholder.</figcaption></figure>
+<figure><div class=fignum>Fig D</div><div class=title>What private plans pay hospitals, as a percent of Medicare (2022)</div>
+<svg viewBox="0 0 680 250">
+<rect x="290.0" y="104" width="200.0" height="46" fill="var(--faint)" />
+<text x="390.0" y="98" text-anchor=middle class=note>most states fall in this range</text>
+<line x1="90" y1="150" x2="610" y2="150" class=axis />
+<line x1="90.0" y1="150" x2="90.0" y2="155" class=axis />
+<text x="90.0" y="168" text-anchor=middle class=tick>100%</text>
+<line x1="290.0" y1="150" x2="290.0" y2="155" class=axis />
+<text x="290.0" y="168" text-anchor=middle class=tick>200%</text>
+<line x1="490.0" y1="150" x2="490.0" y2="155" class=axis />
+<text x="490.0" y="168" text-anchor=middle class=tick>300%</text>
+<line x1="610.0" y1="150" x2="610.0" y2="155" class=axis />
+<text x="610.0" y="168" text-anchor=middle class=tick>360%</text>
+<text x="90.0" y="182" text-anchor=middle class=note>Medicare</text>
+<line x1="398.0" y1="138" x2="398.0" y2="155" class=ref />
+<text x="398.0" y="120" text-anchor=middle class=val fill="var(--accent)">254%</text>
+<text x="398.0" y="132" text-anchor=middle class=note>national average</text>
+<circle cx="214.0" cy="150.0" r="5" fill="var(--ink)"  />
+<text x="214.0" y="138" text-anchor=middle class=val>162%</text>
+<text x="214.0" y="190" text-anchor=middle class=lab>Arkansas — lowest</text>
+<circle cx="582.0" cy="150.0" r="5" fill="var(--ink)"  />
+<text x="582.0" y="138" text-anchor=middle class=val>346%</text>
+<text x="582.0" y="190" text-anchor=middle class=lab>Florida — highest</text>
+<line x1="90" y1="206" x2="290.0" y2="206" stroke="var(--ctx)" stroke-width=1 />
+<text x="190.0" y="222" text-anchor=middle class=note>5 states &lt; 200%: AR, MA, MI, MS, RI</text>
+<line x1="490.0" y1="206" x2="610" y2="206" stroke="var(--ctx)" stroke-width=1 />
+<text x="550.0" y="222" text-anchor=middle class=note>8 states &gt; 300%: CA, DE, FL, GA, NY, SC, WV, WI</text>
+</svg>
+<figcaption><b>Real (RAND 5.1).</b> Verified anchors shown; per-state values for the ~37 middle states sit in the RAND facility-level annex. A full 50-state ranked dot plot is buildable once that table is pulled.</figcaption></figure>
+<figure><div class=fignum>Fig E</div><div class=title>Share of posted negotiated rates that are &ldquo;ghosts&rdquo;</div>
+<svg viewBox="0 0 680 210">
+<line x1="300" y1="32" x2="300" y2="170" class=axis />
+<text x="300.0" y="188" text-anchor=middle class=tick>0%</text>
+<line x1="300.0" y1="170" x2="300.0" y2="174" class=axis />
+<text x="455.0" y="188" text-anchor=middle class=tick>50%</text>
+<line x1="455.0" y1="170" x2="455.0" y2="174" class=axis />
+<text x="610.0" y="188" text-anchor=middle class=tick>100%</text>
+<line x1="610.0" y1="170" x2="610.0" y2="174" class=axis />
+<line x1="300" y1="60" x2="584.6" y2="60" stroke="var(--ctx)" stroke-width=.6 />
+<circle cx="584.6" cy="60.0" r="5" fill="var(--ink)"  />
+<text x="288" y="64" text-anchor=end class=lab>All 61 insurers, pooled</text>
+<text x="594.6" y="64" class=val >91.8%</text>
+<line x1="300" y1="100" x2="561.3" y2="100" stroke="var(--ctx)" stroke-width=.6 />
+<circle cx="561.3" cy="100.0" r="5" fill="var(--ink)"  />
+<text x="288" y="104" text-anchor=end class=lab>Median insurer</text>
+<text x="571.3" y="104" class=val >84.3%</text>
+<line x1="300" y1="140" x2="517.9" y2="140" stroke="var(--ctx)" stroke-width=.6 />
+<circle cx="517.9" cy="140.0" r="5" fill="var(--accent)"  />
+<text x="288" y="144" text-anchor=end class=lab>100 most common billing codes</text>
+<text x="527.9" y="144" class=val fill=var(--accent)>70.3%</text>
+</svg>
+<figcaption><b>Real (Muhlestein 2025).</b> Ghosts saturate even the busiest codes — <b>70.3% of the 100 most common</b> are fiction. A flag on a whole dataset or source row drowns at this scale; only a judgment on each price survives it. This is the case <i>for</i> per-price grading.</figcaption></figure>
+<figure><div class=fignum>Fig F</div><div class=title>Why claims data can&rsquo;t fill the gap: most workers sit outside it</div>
+<svg viewBox="0 0 680 170">
+<rect x="60.0" y="46" width="364.0" height="42" fill="var(--accent)" />
+<rect x="424.0" y="46" width="196.0" height="42" fill="var(--ctx)" />
+<text x="242.0" y="71" text-anchor=middle fill="#fff" class=val>65%</text>
+<text x="522.0" y="71" text-anchor=middle fill="var(--ink)" class=val>35%</text>
+<text x="60.0" y="110" class=lab>Self-insured (ERISA) — <tspan fill="var(--accent)">states cannot compel into an APCD</tspan></text>
+<text x="620.0" y="110" text-anchor=end class=lab>Fully-insured — reportable</text>
+<text x="60" y="28" class=note>Share of covered U.S. workers, by plan funding</text>
+</svg>
+<figcaption><b>Real (KFF 2023; <i>Gobeille</i> 2016).</b> About <b>65%</b> of covered workers are in self-insured plans that, after <i>Gobeille v. Liberty Mutual</i>, states cannot force into an all-payer claims database. Only ~20 states run an APCD at all. Claims are lagged and partial; the posted rates are the only live, all-payer, every-state signal.</figcaption></figure>
+<figure><div class=fignum>Fig G</div><div class=title>One wrist X-ray, two labeled components (CPT 73110, Benefis)</div>
+<svg viewBox="0 0 600 200">
+<line x1="200" y1="50" x2="200" y2="150" class=axis />
+<text x="200.0" y="170" text-anchor=middle class=tick>$0</text>
+<line x1="200.0" y1="150" x2="200.0" y2="154" class=axis />
+<text x="363.6" y="170" text-anchor=middle class=tick>$100</text>
+<line x1="363.6" y1="150" x2="363.6" y2="154" class=axis />
+<text x="527.3" y="170" text-anchor=middle class=tick>$200</text>
+<line x1="527.3" y1="150" x2="527.3" y2="154" class=axis />
+<rect x="200" y="62" width="24.0" height="22" fill="var(--ctx)" />
+<text x="188" y="77" text-anchor=end class=lab>Professional</text>
+<text x="232.0" y="77" class=val>$14.66 &nbsp;<tspan class=note>read fee</tspan></text>
+<rect x="200" y="106" width="332.8" height="22" fill="var(--accent)" />
+<text x="188" y="121" text-anchor=end class=lab>Technical</text>
+<text x="540.8" y="121" class=val>$203.40 &nbsp;<tspan class=note>room + equipment</tspan></text>
+</svg>
+<figcaption><b>Real (in piece).</b> The apparent 14&times; discrepancy is not one price wrong; it is two labeled parts of one procedure. A usable price has to be assembled from labeled components — and the labels are what most readers lack.</figcaption></figure>
+<figure><div class=fignum>Fig H</div><div class=title>Posted childbirth rates line up with claims (Pennsylvania)<span class=badge>Illustrative $</span></div>
+<svg viewBox="0 0 680 300">
+<rect x="335.0" y="40" width="150.0" height="200" fill="var(--faint)" />
+<text x="410.0" y="32" text-anchor=middle class=note>claims-based estimate (prior HCCI study)</text>
+<text x="200.0" y="262" text-anchor=middle class=tick>$6k</text>
+<line x1="200.0" y1="240" x2="200.0" y2="244" class=axis />
+<text x="320.0" y="262" text-anchor=middle class=tick>$10k</text>
+<line x1="320.0" y1="240" x2="320.0" y2="244" class=axis />
+<text x="440.0" y="262" text-anchor=middle class=tick>$14k</text>
+<line x1="440.0" y1="240" x2="440.0" y2="244" class=axis />
+<text x="560.0" y="262" text-anchor=middle class=tick>$18k</text>
+<line x1="560.0" y1="240" x2="560.0" y2="244" class=axis />
+<line x1="200" y1="240" x2="620" y2="240" class=axis />
+<text x="188" y="64" text-anchor=end class=lab>UPMC</text>
+<circle cx="548.0" cy="60.0" r="4.5" fill="var(--accent)"  />
+<text x="188" y="86" text-anchor=end class=lab>Highmark</text>
+<circle cx="476.0" cy="82.0" r="4.5" fill="var(--ink)"  />
+<text x="188" y="108" text-anchor=end class=lab>Independence BC</text>
+<circle cx="452.0" cy="104.0" r="4.5" fill="var(--ink)"  />
+<text x="188" y="130" text-anchor=end class=lab>Capital Blue Cross</text>
+<circle cx="413.0" cy="126.0" r="4.5" fill="var(--ink)"  />
+<text x="188" y="152" text-anchor=end class=lab>Aetna</text>
+<circle cx="398.0" cy="148.0" r="4.5" fill="var(--ink)"  />
+<text x="188" y="174" text-anchor=end class=lab>UnitedHealthcare</text>
+<circle cx="380.0" cy="170.0" r="4.5" fill="var(--ink)"  />
+<text x="188" y="196" text-anchor=end class=lab>Cigna</text>
+<circle cx="359.0" cy="192.0" r="4.5" fill="var(--ink)"  />
+<text x="188" y="218" text-anchor=end class=lab>Geisinger</text>
+<circle cx="314.0" cy="214.0" r="4.5" fill="var(--accent)"  />
+</svg>
+<figcaption><b>Structure real, dollars <span style="color:var(--red)">illustrative</span> (HCCI).</b> The real study spans 35 Pennsylvania CBSAs, the 8 payers shown, and MS-DRG 783&ndash;788 etc.; HCCI found TiC childbirth rates &ldquo;broadly aligned&rdquo; with claims. Exact medians live in a prior HCCI report and are the one outstanding pull. Two outliers sit outside the claims band (one above, one below) — the kind of divergence a grade would flag.</figcaption></figure>
+<p class=sub style="margin-top:40px;border-top:.5px solid var(--rule);padding-top:18px">
+<b>Real data:</b> D (RAND 5.1, 2022) &middot; E (Muhlestein 2025, <i>Health Affairs Scholar</i>, 61 insurers) &middot;
+F (KFF EHBS 2023; APCD Council; <i>Gobeille v. Liberty Mutual</i>, 2016) &middot; G (Allegiance / Benefis filings, CPT 73110).<br>
+<b style="color:var(--red)">Illustrative</b> (placeholder data, not Starset output): B, C, and the dollar values in H.
+Layout and logic are real; numbers await the export described in the brief.</p>
+</div></body></html>
