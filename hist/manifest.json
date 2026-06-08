@@ -1,0 +1,66 @@
+{
+ "leavitt": {
+  "file": "leavitt.jpg",
+  "title": "File:Henrietta Swan Leavitt.jpg",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "credit": "From here, see also [1].\nhttps://lccn.loc.gov/05025712 Popular Astronomy, v. 30, no. 4, April 1922.\n\nhttps://blogs.loc.gov/inside_adams/2019/12/henriettaleavitt",
+  "page": "https://commons.wikimedia.org/wiki/File%3AHenrietta_Swan_Leavitt.jpg"
+ },
+ "atlas": {
+  "file": "atlas.jpg",
+  "title": "File:Atlas Coelestis by John Flamsteed (1729) 000.jpg",
+  "license": "Public domain",
+  "artist": "John Flamsteed",
+  "credit": "https://www.raremaps.com/gallery/detail/66646/atlas-coelestis-flamsteed",
+  "page": "https://commons.wikimedia.org/wiki/File%3AAtlas_Coelestis_by_John_Flamsteed_%281729%29_000.jpg"
+ },
+ "computers": {
+  "file": "computers.jpg",
+  "title": "File:Observatory women computers, 1891.jpg",
+  "license": "Public domain",
+  "artist": "Harvard University Archives",
+  "credit": "http://id.lib.harvard.edu/images/olvwork289691/catalog",
+  "page": "https://commons.wikimedia.org/wiki/File%3AObservatory_women_computers%2C_1891.jpg"
+ },
+ "andromeda": {
+  "file": "andromeda.jpg",
+  "title": "File:Pic iroberts1.jpg",
+  "license": "Public domain",
+  "artist": "Isaac Roberts (d. 1904)",
+  "credit": "A Selection of Photographs of Stars, Star-clusters and Nebulae, Volume II, The Universal Press, London, 1899.",
+  "page": "https://commons.wikimedia.org/wiki/File%3APic_iroberts1.jpg"
+ },
+ "hubble_scope": {
+  "file": "hubble_scope.jpg",
+  "title": "File:Hubble at 100-inch (19950424 cd3 07-CC).jpg",
+  "license": "CC BY 4.0",
+  "artist": "International Gemini Observatory/NOIRLab/NSF/AURA",
+  "credit": "Hubble at 100-inch",
+  "page": "https://commons.wikimedia.org/wiki/File%3AHubble_at_100-inch_%2819950424_cd3_07-CC%29.jpg"
+ },
+ "comparator": {
+  "file": "comparator.jpg",
+  "title": "File:Lowell blink comparator.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Taken by Pretzelpaws with a Casio Exilim EX-Z750 camera. Cropped 8/16/05 using the GIMP.",
+  "credit": "English Wikipedia under that licence (deletion log\u00a0: \u00ab\u00a021:03, 10 September 2006 Conscious (Talk | contribs) deleted \"Image:Lowell blink comparator.jpg\"  (on Com",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALowell_blink_comparator.jpg"
+ },
+ "meridian": {
+  "file": "meridian.jpg",
+  "title": "File:Wollaston Transit Instrument 1793 00969421 0020.jpg",
+  "license": "Public domain",
+  "artist": "Francis Wollaston 1731-1815",
+  "credit": "https://archive.org/details/philtrans00969421",
+  "page": "https://commons.wikimedia.org/wiki/File%3AWollaston_Transit_Instrument_1793_00969421_0020.jpg"
+ },
+ "hudf": {
+  "file": "hudf.jpg",
+  "title": "File:Hubble ultra deep field.jpg",
+  "license": "Public domain",
+  "artist": "NASA and the European Space Agency.",
+  "credit": "http://hubblesite.org/newscenter/archive/releases/2004/07/image/a/warn/",
+  "page": "https://commons.wikimedia.org/wiki/File%3AHubble_ultra_deep_field.jpg"
+ }
+}
